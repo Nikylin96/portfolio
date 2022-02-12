@@ -1,21 +1,20 @@
 import React from 'react';
-import s from './Main.module.css'
-import sContainer from '../../src/common/styles/Container.module.css'
+import s from './Contacts.module.css'
+import Contact from "./contact/Contact";
 
 
-const Main = () => {
+const Contacts = () => {
     return (
-        <div className={s.mainBlock}>
-            <div className={sContainer.container}>
-                <div className={s.mainText}>
-                    <span>Здарова</span>
-                    <h1>I am Александр Апоносёнок</h1>
-                    <p>Frontend Developer</p>
-                </div>
-                <div className={s.photo}></div>
+        <div className={s.contactsBlock}>
+            <div className={s.contacts}>
+                <h3 className={s.title}>Контакты</h3>
+                <Contact/>
+                <button className={s.button}>Отправить</button>
+
             </div>
+
         </div>
     );
 };
 
-export default Main;
+export default Contacts;

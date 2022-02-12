@@ -1,14 +1,18 @@
 import React from 'react';
-import s from './Header.module.css'
-import Nav from "../navigation/Nav";
+import s from './Main.module.css'
 
-
-const Header = () => {
+const Main = () => {
     return (
-        <div className={s.header}>
-            <Nav/>
+        <div className={s.mainBlock}>
+            <div className={s.container}>
+                <div className={s.mainText}>
+                    <h1>Александр Апоносёнок</h1>
+                    <p>Frontend Developer</p>
+                </div>
+                <div className={s.photo}></div>
+            </div>
         </div>
     );
 };
 
-export default Header;
+export default Main;

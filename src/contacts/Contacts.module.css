@@ -1,16 +1,27 @@
-.mainBlock {
+.contactsBlock {
     height: 100vh;
-    background-color: #293f50;
+    background-color:#f4f9f2;
 }
 
-.mainText {
-    width: 500px;
-    background-color: white;
+.contacts {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: blue;
+}
+.button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
 
 }
 
-.photo {
-    width: 300px;
-    height: 400px;
-    background-color: white;
-}

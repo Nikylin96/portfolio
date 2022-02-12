@@ -1,7 +1,25 @@
-.header {
- height: 80px;
- background-color:#3c3c3c;
- display: flex;
- justify-content: right;
- align-items: center;
+.mainBlock {
+    height: 100vh;
+    background-color: #293f50;
+}
+.container {
+    border: 1px solid white;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainText {
+    width: 500px;
+    background-color: white;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: white;
 }

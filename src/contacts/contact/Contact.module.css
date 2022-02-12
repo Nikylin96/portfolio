@@ -1,0 +1,14 @@
+.contactsBlock {
+    background-color: red;
+}
+.forms {
+    height: 100px;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.inputMargin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

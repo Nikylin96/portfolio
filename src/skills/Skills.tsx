@@ -1,17 +1,22 @@
 import React from 'react';
-import s from './Nav.module.css'
+import s from './Skills.module.css'
+import sContainer from '../../src/common/styles/Container.module.css'
+import Skill from "./skill/Skill";
 
 
-const Nav = () => {
+const Skills = () => {
     return (
-        <div className={s.nav}>
-            <a href="">Главная</a>
-            <a href="">Навыки</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
-
+        <div className={s.skillsBlock}>
+            <div className={s.skillsContainer}>
+                <h2 className={s.title}>Навыки </h2>
+                <div className={s.skills}>
+                    <Skill title={'HTML'} description={'sasdas as da sd as da  asdasdasdasd  asdasd asda ad'}/>
+                    <Skill title={'CSS'} description={'asd'}/>
+                    <Skill title={'React'} description={'asd'}/>
+                </div>
+            </div>
         </div>
     );
 };
 
-export default Nav;
+export default Skills;
