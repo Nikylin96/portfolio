@@ -1,0 +1,14 @@
+.projectBlock {
+    height: 100vh;
+    background-color: #293f50;
+}
+
+.skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.title {
+    background-color: white;
+}
